@@ -26,6 +26,7 @@ I work as a worker in a factory. I made a decision to change my life. There is a
 * PHP ( Basics )
 * MySQL ( Basics )
 * Git / GitHub ( Basics )
+* Figma ( Basics )
 
 ## Code example from CodeWars:
 ```
