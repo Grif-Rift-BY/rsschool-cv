@@ -2,14 +2,13 @@
 # *Pavel Zalazaev*
 *****
 ## Contacts:
-*****
+
 * Location: Bobruisk, Belarus
 * Phone:  +375 ( 29 ) 162-98-23
 * E-mail: pavel.zalazaev@protonmail.com
 * Discord: Grif-Rift-BY#7299
 * GitHub: [Grif-Rift-BY](https://github.com/Grif-Rift-BY)
 * CodeWars: [Grif-Rift-BY](https://www.codewars.com/users/Grif-Rift-BY) 
-*****
 
 ## About me:
 
