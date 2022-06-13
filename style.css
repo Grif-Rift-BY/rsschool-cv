@@ -1,3 +1,56 @@
-h1 {
-    text-shadow: 3px 3px 6px black;
+/* ------------------------Reset styles---------------------*/
+*{ border: 0; margin: 0; padding: 0; }
+*, *::before, *::after{ -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box ; box-sizing: border-box; }
+:focus, :active{ outline: none; }
+a:focus, a:active{ outline: none; text-decoration: none;}
+nav, footer, header, aside { display: block; }
+html, body{ width: 100%; height: 100%; font-size: 100%;
+line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+input, button, textarea{ font-family: inherit; }
+input::-ms-clear{ display: none; }
+button{ cursor: pointer; }
+button::-moz-focus-inner{ margin: 0; padding: 0; }
+a, a:visited{ text-decoration: none; }
+a:hover{ text-decoration: none; }
+ul li{ list-style: none; }
+img{ vertical-align: top; }
+h1, h2, h3, h4, h5, h6{ font-size: inherit; font-weight: 400; }
+/* --------------------------------------------------------- */
+/* ---------------Elements  vizualisation--------------------*/
+/* *{ outline: 1px dashed red; outline-offset: -1px; } */
+/* ========================================================= */
+
+:root {
+    --link-color: #ffbb54;
+    --link-color-hover: #ff9900;
+    --dark-glass: rgba(0, 0, 0, 0.6);
+    --medium-glass: rgba(0, 0, 0, 0.2);
+    --light-glass: rgba(0, 0, 0, 0.3);
+    --shadow: rgba(0, 0, 0, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-image: url("assets/img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
 }
