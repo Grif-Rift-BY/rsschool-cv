@@ -214,14 +214,6 @@ a {
           box-shadow: 15px 15px 15px var(--shadow);
 }
 
-@media (max-width: 768px){
-  .header__avatar {
-      margin-top: 40px;
-      height: 275px;
-      width: 275px;
-  }
-}
-
 .header__img {
   height: 350px;
   width: 350px;
@@ -231,9 +223,27 @@ a {
 }
 
 @media (max-width: 768px){
+  .header__avatar {
+      margin-top: 40px;
+      height: 275px;
+      width: 275px;
+  }
+
   .header__img {
       height: 275px;
       width: 275px;
+  }
+}
+
+@media (max-width: 576px){
+  .header__avatar {
+      height: 250px;
+      width: 250px;
+  }
+
+.header__img {
+      height: 250px;
+      width: 250px;
   }
 }
 
@@ -284,7 +294,7 @@ a {
 
 @media (max-width: 576px){
   .nav__list {
-    padding: 20px;
+    padding: 30px 20px;
   }
 }
 
